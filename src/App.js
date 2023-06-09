@@ -12,7 +12,7 @@ function App() {
   const [amountValue, setAmountValue] = useState(20)
   const [isContent, setContent] = useState(false)
   const [response, setResponse] = useState([])
-  const [isLoading, setLoading] = useState(false)
+  const [isLoading, setLoading] = useState(true)
   const [scrolled, setScrolled] = useState('topBar')
 
   useEffect(()=>{
@@ -46,7 +46,9 @@ function App() {
     setLoading(true)
     const res = await getGifByTitle(searchValue, amountValue)
     setResponse(res)
-    setLoading(false)
+    setTimeout(()=>{
+      setLoading(false)
+    }, 750)
     res.length === 0 && setContent(false)
   }
 

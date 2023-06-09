@@ -40,22 +40,22 @@
   }
   
   .box-1 {
-    animation: from-left 4s infinite;
+    animation: from-left 1s infinite;
   }
   
   .box-2 {
-    animation: from-right 4s infinite;
-    animation-delay: 1s;
+    animation: from-right 1s infinite;
+    animation-delay: 0.3s;
   }
   
   .box-3 {
-    animation: from-left 4s infinite;
-    animation-delay: 2s;
+    animation: from-left 1s infinite;
+    animation-delay: 0.6s;
   }
   
   .box-4 {
-    animation: from-right 4s infinite;
-    animation-delay: 3s;
+    animation: from-right 1s infinite;
+    animation-delay: 0.9s;
   }
   
   @keyframes from-left {

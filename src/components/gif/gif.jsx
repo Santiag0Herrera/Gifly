@@ -27,7 +27,6 @@ const Gif = (gifData) => {
             <div className="card-content" style={{opacity: isHovered ? 1 : 0}}>
                 <p>{gifData.gifData.title}</p>
                 <div className="card-content-buttons">
-                    <button>detail view</button>
                     <button onClick={handleCopyClick}>copy</button>
                 </div>
             </div>

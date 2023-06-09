@@ -1,0 +1,49 @@
+.gif-card{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.card-content{
+    background-color: rgba(3, 3, 3, 0.672);
+    border-radius: 15px;
+    color: white;
+    width: 100%;
+    font-size: 10px;
+    height: 100%;
+    transition: all 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card-content p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 30%;
+    padding: 5px;
+    margin-top: 15%;
+    color: #5abf17;
+}
+
+.card-content-buttons{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-content-buttons button{
+    width: 30%;
+    margin: 0 3%;
+    min-height: 30px;
+}
